@@ -102,18 +102,17 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-it-blue-light mt-0.5" />
                 <span className="text-gray-300">
-                  123 Tech Park, Silicon Valley<br />
-                  California, USA 94025
+                 Bhubneswar , Odisha India<br />
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-it-blue-light" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+91 9546128425</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-it-blue-light" />
-                <a href="mailto:info@technex.com" className="text-gray-300 hover:text-white">
-                  info@technex.com
+                <a href="mailto:technologyinstance@gmail.com" className="text-gray-300 hover:text-white">
+                technologyinstance@gmail.com
                 </a>
               </li>
             </ul>

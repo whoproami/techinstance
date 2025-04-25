@@ -12,7 +12,7 @@ const ContactPage = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [selectedLocationId, setSelectedLocationId] = useState("sf"); // Default to San Francisco
+  const [selectedLocationId, setSelectedLocationId] = useState("Bbsr"); // Default to San Francisco
   const { toast } = useToast();
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -99,8 +99,8 @@ const ContactPage = () => {
                 <Mail className="h-5 w-5 text-it-blue-light mr-3 mt-1" />
                 <div>
                   <p className="font-medium">Email Us</p>
-                  <a href="mailto:info@techinstance.com" className="text-it-blue hover:underline">
-                    info@techinstance.com
+                  <a href="mailto:technologyinstance@gmail.com" className="text-it-blue hover:underline">
+                      technologyinstance@gmail.com
                   </a>
                 </div>
               </div>
@@ -108,7 +108,7 @@ const ContactPage = () => {
                 <Phone className="h-5 w-5 text-it-blue-light mr-3 mt-1" />
                 <div>
                   <p className="font-medium">Call Us</p>
-                  <p>+1 (555) 123-4567</p>
+                  <p>+91 9546128425</p>
                 </div>
               </div>
               <div className="flex items-start">

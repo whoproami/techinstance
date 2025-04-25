@@ -47,6 +47,12 @@ export const officeLocations = [
     address: "25 Marina Bay, Singapore 018983",
     position: { lat: 1.3521, lng: 103.8198 },
   },
+  {
+    id: "Bbsr",
+    name: " Bhubaneswar Office", 
+    address: "Bhubaneswar, Odisha",
+    position: { lat: 20.2960 , lng: 85.8246 },
+  }
 ];
 
 interface GoogleMapProps {
