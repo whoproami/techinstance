@@ -25,7 +25,7 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-4">
-                Founded in 2005, Tech Instance began as a small software development team with a vision to build innovative technology solutions. Today, we've grown into a global IT services company with offices in 12 countries and over 5,000 technology professionals.
+                Founded in 2023, Tech Instance began as a small software development team with a vision to build innovative technology solutions. Today, we've grown into a global IT services company with offices in 2 countries and over 100+ technology professionals.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Our journey has been driven by a commitment to excellence, a passion for innovation, and a deep understanding of how technology can transform businesses.
@@ -33,11 +33,11 @@ const About = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 <div className="flex items-center">
                   <Award className="text-it-blue-dark h-6 w-6 mr-3" />
-                  <span className="font-medium">15+ Years of Excellence</span>
+                  <span className="font-medium">2+ Years of Excellence</span>
                 </div>
                 <div className="flex items-center">
                   <Users className="text-it-blue-dark h-6 w-6 mr-3" />
-                  <span className="font-medium">5,000+ Professionals</span>
+                  <span className="font-medium">100+ Professionals</span>
                 </div>
                 <div className="flex items-center">
                   <Map className="text-it-blue-dark h-6 w-6 mr-3" />

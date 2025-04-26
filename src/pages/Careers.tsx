@@ -366,7 +366,7 @@ const Careers = () => {
       <section className="py-16 bg-it-blue-dark text-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl font-bold mb-6">Life at TechNex</h2>
+            <h2 className="text-3xl font-bold mb-6">Experience at TechInstance</h2>
             <p className="text-xl text-blue-100">
               Hear from our team members about their experience working at TechNex.
             </p>
@@ -375,10 +375,10 @@ const Careers = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Sarah Johnson",
-                role: "Senior Developer",
-                image: "https://randomuser.me/api/portraits/women/44.jpg",
-                quote: "Working at TechNex has been the highlight of my career. The challenging projects, supportive team, and opportunities for growth have helped me develop both professionally and personally."
+                name: "Sahil Kumar",
+                role: "App Developer",
+                image: "https://media.licdn.com/dms/image/v2/D5603AQFcH8Iot9fzvA/profile-displayphoto-shrink_100_100/B56ZYrd2tlGcAU-/0/1744485969530?e=1750896000&v=beta&t=9Y7dvNDlpkKVouGkjnI744GcClTXH7Er6xY9TIguHqk",
+                quote: "My time at Tech Instance was truly enriching. The supportive and collaborative team, along with a positive work environment, offered me valuable opportunities to learn, grow, and enhance my skills."
               },
               {
                 name: "Michael Chen",
@@ -396,7 +396,7 @@ const Careers = () => {
               <div key={index} className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
                 <div className="flex items-center mb-4">
                   <img 
-                    src={testimonial.image} 
+                  src={testimonial.image}
                     alt={testimonial.name} 
                     className="w-14 h-14 rounded-full object-cover mr-4"
                   />

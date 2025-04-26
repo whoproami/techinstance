@@ -186,7 +186,7 @@ const Services = () => {
             ].map((tech, index) => (
               <div key={index} className="text-center">
                 <div className="h-24 flex items-center justify-center bg-gray-100 rounded-lg mb-3">
-                  <div className="w-12 h-12 bg-gray-300 animate-pulse rounded"></div>
+                  <div className="w-12 h-12 text-white rounded content-center bg-it-blue-dark">{tech[0]}</div>
                 </div>
                 <p className="text-sm font-medium">{tech}</p>
               </div>
